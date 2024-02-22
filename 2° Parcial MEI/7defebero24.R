@@ -130,3 +130,29 @@ PieChart(
   fill = c("lightblue", "pink"),
   main = "Gender"
 )
+
+# creamos una nueva variable llamada count_3
+count_3 <- c(20, 50, 30)
+pie(count_3, labels = paste0(count_3, "%"))
+legend(
+  "topleft",
+  legend = c("Teatro", "Series", "Películas"),
+  fill = c("white", "lightblue", "mistyrose")
+)
+
+# también existe top, topright, etc.
+# plotrix es un paquete que permite hacer gráficas en 3D
+library("plotrix")
+
+num_data <- c(65, 35)
+
+# usaremos un argumento para dividir la gráfica explode=
+# vamos a corregir el color de los bordes de la gráfica
+pie3D(
+  num_data,
+  labels = num_data,
+  explode = 0.1,
+  col = 2:3,
+  labelcol = "red",
+  border = "white"
+)
