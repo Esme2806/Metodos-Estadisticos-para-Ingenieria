@@ -5,6 +5,16 @@
     }
   ],
   "settings": {
-    "cSpell.words": ["CRAN", "graficar", "mfrow", "rtools"]
+    "cSpell.words": [
+      "CRAN",
+      "graficar",
+      "labelcol",
+      "mfrow",
+      "mistyrose",
+      "plotrix",
+      "rtools",
+      "topleft",
+      "topright"
+    ]
   }
 }
