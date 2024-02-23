@@ -6,15 +6,41 @@
   ],
   "settings": {
     "cSpell.words": [
+      "bargap",
+      "barmode",
+      "bgcolor",
+      "bordercolor",
       "CRAN",
+      "dplyr",
+      "dtick",
+      "ggplot",
       "graficar",
       "labelcol",
+      "Likert",
+      "linecolor",
+      "linewidth",
       "mfrow",
       "mistyrose",
+      "plotly",
       "plotrix",
+      "rgba",
       "rtools",
+      "showarrow",
+      "showgrid",
+      "showlegend",
+      "showline",
+      "showticklabels",
+      "textposition",
+      "tickangle",
+      "tickfont",
+      "titlefont",
       "topleft",
-      "topright"
+      "topright",
+      "xanchor",
+      "xaxis",
+      "yaxis",
+      "yref",
+      "zeroline"
     ]
   }
 }
