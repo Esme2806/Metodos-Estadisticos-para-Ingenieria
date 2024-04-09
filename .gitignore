@@ -54,3 +54,5 @@ rsconnect/
 # Misc
 .DS_Store
 *.pdf
+
+GDCdata/
