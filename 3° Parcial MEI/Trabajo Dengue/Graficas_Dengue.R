@@ -33,7 +33,9 @@ data$HABLA_LENGUA_INDIG <- factor(
 
 plot_ly(data, x = ~HABLA_LENGUA_INDIG) %>%
   add_histogram() %>%
-  layout(title = "Distribución de casos de dengue por habla lengua indígena")
+  layout(
+    title = "Distribución de casos de dengue en hablantes de lengua indígena"
+  )
 
 # Gráfica de barras de la columna INDIGENA
 data$INDIGENA <- factor(
@@ -44,7 +46,7 @@ data$INDIGENA <- factor(
 
 plot_ly(data, x = ~INDIGENA) %>%
   add_histogram() %>%
-  layout(title = "Distribución de casos de dengue por indígena")
+  layout(title = "Distribución de casos de dengue en personas indígenas")
 
 # Gráfica de barras de la columna INSTITUCION_UM_NOTIF
 data$INSTITUCION_UM_NOTIF <- factor(
